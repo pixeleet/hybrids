@@ -140,7 +140,7 @@ store(Model: object, options?: id | { id?: string | (host) => any, draft?: boole
 If the model definition storage supports set action, the defined property will be writable using the `store.set()` method internally. However, direct usage of the method is not required. Instead, use the assertion.
 
 ```javascript
-function setDarkTheme(host, event) {
+function setAdminRights(host, event) {
   // updates `admin` property of the user model instance by the assertion
   host.user = { admin: true };
 }
